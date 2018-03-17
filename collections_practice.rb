@@ -27,7 +27,7 @@ def kesha_maker(string)
 end
 
 def find_a(strings)
-  strings.select{|name| name.start_with?("a")}
+  strings.select{|name| name.include?("a")}
 end
 
 def sum_array(integers)
